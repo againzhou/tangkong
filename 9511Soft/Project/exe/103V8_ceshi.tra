@@ -1,0 +1,74 @@
+*** Creating Trace Output File '.\exe\103V8_ceshi.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\exe\app.o"'
+### List of Objects: adding '".\exe\stm32f10x_it.o"'
+### List of Objects: adding '".\exe\c491.o"'
+### List of Objects: adding '".\exe\dbg.o"'
+### List of Objects: adding '".\exe\moto.o"'
+### List of Objects: adding '".\exe\in.o"'
+### List of Objects: adding '".\exe\com.o"'
+### List of Objects: adding '".\exe\hdled.o"'
+### List of Objects: adding '".\exe\mc_base.o"'
+### List of Objects: adding '".\exe\mc_open.o"'
+### List of Objects: adding '".\exe\mc_close_low.o"'
+### List of Objects: adding '".\exe\mc_close_high.o"'
+### List of Objects: adding '".\exe\mc_cmd.o"'
+### List of Objects: adding '".\exe\bsp.o"'
+### List of Objects: adding '".\exe\io.o"'
+### List of Objects: adding '".\exe\os_cpu_a.o"'
+### List of Objects: adding '".\exe\os_cpu_c.o"'
+### List of Objects: adding '".\exe\os_dbg.o"'
+### List of Objects: adding '".\exe\os_core.o"'
+### List of Objects: adding '".\exe\os_flag.o"'
+### List of Objects: adding '".\exe\os_mbox.o"'
+### List of Objects: adding '".\exe\os_mem.o"'
+### List of Objects: adding '".\exe\os_mutex.o"'
+### List of Objects: adding '".\exe\os_q.o"'
+### List of Objects: adding '".\exe\os_sem.o"'
+### List of Objects: adding '".\exe\os_task.o"'
+### List of Objects: adding '".\exe\os_time.o"'
+### List of Objects: adding '".\exe\os_tmr.o"'
+### List of Objects: adding '".\exe\misc.o"'
+### List of Objects: adding '".\exe\stm32f10x_adc.o"'
+### List of Objects: adding '".\exe\stm32f10x_bkp.o"'
+### List of Objects: adding '".\exe\stm32f10x_can.o"'
+### List of Objects: adding '".\exe\stm32f10x_crc.o"'
+### List of Objects: adding '".\exe\stm32f10x_dac.o"'
+### List of Objects: adding '".\exe\stm32f10x_dbgmcu.o"'
+### List of Objects: adding '".\exe\stm32f10x_dma.o"'
+### List of Objects: adding '".\exe\stm32f10x_exti.o"'
+### List of Objects: adding '".\exe\stm32f10x_flash.o"'
+### List of Objects: adding '".\exe\stm32f10x_fsmc.o"'
+### List of Objects: adding '".\exe\stm32f10x_gpio.o"'
+### List of Objects: adding '".\exe\stm32f10x_i2c.o"'
+### List of Objects: adding '".\exe\stm32f10x_iwdg.o"'
+### List of Objects: adding '".\exe\stm32f10x_pwr.o"'
+### List of Objects: adding '".\exe\stm32f10x_rcc.o"'
+### List of Objects: adding '".\exe\stm32f10x_rtc.o"'
+### List of Objects: adding '".\exe\stm32f10x_sdio.o"'
+### List of Objects: adding '".\exe\stm32f10x_spi.o"'
+### List of Objects: adding '".\exe\stm32f10x_tim.o"'
+### List of Objects: adding '".\exe\stm32f10x_usart.o"'
+### List of Objects: adding '".\exe\stm32f10x_wwdg.o"'
+### List of Objects: adding '".\exe\system_stm32f10x.o"'
+### List of Objects: adding '".\exe\startup_stm32f10x_md_os.o"'
+### List of Objects: adding '".\exe\bitstream.o"'
+### List of Objects: adding '".\exe\crypto_des3.o"'
+### List of Objects: adding '".\exe\uid_coun.o"'
+### List of Objects: adding '".\exe\des3key.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\exe\app.o" ".\exe\stm32f10x_it.o" ".\exe\c491.o" ".\exe\dbg.o" ".\exe\moto.o" ".\exe\in.o" ".\exe\com.o" ".\exe\hdled.o" ".\exe\mc_base.o" ".\exe\mc_open.o" ".\exe\mc_close_low.o" ".\exe\mc_close_high.o" ".\exe\mc_cmd.o" ".\exe\bsp.o" ".\exe\io.o" ".\exe\os_cpu_a.o" ".\exe\os_cpu_c.o" ".\exe\os_dbg.o" ".\exe\os_core.o" ".\exe\os_flag.o" ".\exe\os_mbox.o" ".\exe\os_mem.o" ".\exe\os_mutex.o" ".\exe\os_q.o" ".\exe\os_sem.o" ".\exe\os_task.o" ".\exe\os_time.o" ".\exe\os_tmr.o" ".\exe\misc.o" ".\exe\stm32f10x_adc.o" ".\exe\stm32f10x_bkp.o" ".\exe\stm32f10x_can.o" ".\exe\stm32f10x_crc.o" ".\exe\stm32f10x_dac.o" ".\exe\stm32f10x_dbgmcu.o" ".\exe\stm32f10x_dma.o" ".\exe\stm32f10x_exti.o" ".\exe\stm32f10x_flash.o" ".\exe\stm32f10x_fsmc.o" ".\exe\stm32f10x_gpio.o" ".\exe\stm32f10x_i2c.o" ".\exe\stm32f10x_iwdg.o" ".\exe\stm32f10x_pwr.o" ".\exe\stm32f10x_rcc.o" ".\exe\stm32f10x_rtc.o" ".\exe\stm32f10x_sdio.o" ".\exe\stm32f10x_spi.o" ".\exe\stm32f10x_tim.o" ".\exe\stm32f10x_usart.o" ".\exe\stm32f10x_wwdg.o" ".\exe\system_stm32f10x.o" ".\exe\startup_stm32f10x_md_os.o" ".\exe\bitstream.o" ".\exe\crypto_des3.o" ".\exe\uid_coun.o" ".\exe\des3key.o" --strict --scatter ".\exe\103V8_ceshi.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\list\103V8_ceshi.map" -o ".\exe\103V8_ceshi.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\exe\103V8_ceshi.axf'
+### ADS-LD Command File: '.\exe\103V8_ceshi.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\exe\103V8_ceshi.lnp', Handle=0x000003A8
+### Writing '.lnp' file
+### ADS-LD Command file '.\exe\103V8_ceshi.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

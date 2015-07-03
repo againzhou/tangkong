@@ -1,0 +1,515 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+F:\tangkong\e9512B\9511Soft\Project\PC9511.uvproj
+Project File Date:  05/18/2015
+
+<h2>Output:</h2>
+Build target 'V8_9511_V1'
+compiling moto.c...
+..\Source\APP\moto.h(203): warning:  #1295-D: Deprecated declaration HOT_POS_Get - give arg types
+..\Source\APP\moto.h:   HOT_POS_TypeDef     HOT_POS_Get();
+..\Source\APP\moto.h:                       ^
+..\Source\APP\moto.c(1078): warning:  #177-D: variable "MotoSt" was declared but never referenced
+..\Source\APP\moto.c:           MOTO_ST_TypeDef     MotoSt[BSP_DEVICE_ID_N];
+..\Source\APP\moto.c:                               ^
+..\Source\APP\moto.c(1422): warning:  #177-D: function "MOTO_TaskHghOdd" was declared but never referenced
+..\Source\APP\moto.c:   static  void  MOTO_TaskHghOdd (void *data)
+..\Source\APP\moto.c:                 ^
+..\Source\APP\moto.c(1427): warning:  #177-D: function "MOTO_TaskHghEven" was declared but never referenced
+..\Source\APP\moto.c:   static  void  MOTO_TaskHghEven (void *data)
+..\Source\APP\moto.c:                 ^
+..\Source\APP\moto.c: ..\Source\APP\moto.c: 4 warnings, 0 errors
+compiling com.c...
+..\Source\APP\moto.h(203): warning:  #1295-D: Deprecated declaration HOT_POS_Get - give arg types
+..\Source\APP\moto.h:   HOT_POS_TypeDef     HOT_POS_Get();
+..\Source\APP\moto.h:                       ^
+..\Source\APP\com.c(270): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:   bool                COM_9511TangkongPatch[2]             =  { 0,0};
+..\Source\APP\com.c:                                                                 ^
+..\Source\APP\com.c(270): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:   bool                COM_9511TangkongPatch[2]             =  { 0,0};
+..\Source\APP\com.c:                                                                   ^
+..\Source\APP\com.c(691): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:        if ((BSP_SWI_FiGet(id) == BSP_SWITCH_LOW)||(COM_9511TangkongDir==FALSE)) /// 如没有回位, 需回位
+..\Source\APP\com.c:                           ^
+..\Source\APP\com.c(710): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:               cmd =   (MOTO_CUT_CMD_TypeDef)COM_Tangkong_WorkCmd;
+..\Source\APP\com.c:                   ^
+..\Source\APP\com.c(721): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:           MOTO_CutSetCmd(id, cmd);
+..\Source\APP\com.c:                              ^
+..\Source\APP\com.c(744): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:               cmd =   (MOTO_CUT_CMD_TypeDef)COM_Tangkong_WorkCmd;
+..\Source\APP\com.c:                   ^
+..\Source\APP\com.c(755): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:           MOTO_CutSetCmd(id, cmd);
+..\Source\APP\com.c:                              ^
+..\Source\APP\com.c(806): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:                            COM_Tangkong_WorkCmd=MOTO_CUT_HALF;
+..\Source\APP\com.c:                                                ^
+..\Source\APP\com.c(809): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:                      COM_Tangkong_WorkCmd=MOTO_CUT_FULL;
+..\Source\APP\com.c:                                          ^
+..\Source\APP\com.c(812): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:                    COM_Tangkong_WorkCmd=MOTO_CUT_D;
+..\Source\APP\com.c:                                        ^
+..\Source\APP\com.c(814): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:                    COM_Tangkong_WorkCmd=MOTO_CUT_H;
+..\Source\APP\com.c:                                        ^
+..\Source\APP\com.c(816): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:                    COM_Tangkong_WorkCmd=MOTO_CUT_O;
+..\Source\APP\com.c:                                        ^
+..\Source\APP\com.c(818): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:                    COM_Tangkong_WorkCmd=MOTO_CUT_NONE;
+..\Source\APP\com.c:                                        ^
+..\Source\APP\com.c(961): warning:  #186-D: pointless comparison of unsigned integer with zero
+..\Source\APP\com.c:    if((len_tmp<5)&&(len_tmp>=0))
+..\Source\APP\com.c:                            ^
+..\Source\APP\com.c(976): warning:  #177-D: variable "broken" was declared but never referenced
+..\Source\APP\com.c:       bool                broken[BSP_DEVICE_ID_N];
+..\Source\APP\com.c:                           ^
+..\Source\APP\com.c(1427): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:    if((IN_HDKey_GetSt(0))!=HDKEY_ST_DN)
+..\Source\APP\com.c:                       ^
+..\Source\APP\com.c(1429): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:    if((IN_HDKey_GetSt(1))!=HDKEY_ST_DN)
+..\Source\APP\com.c:                       ^
+..\Source\APP\com.c(1442): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:       if((IN_HDKey_GetSt(0))!=HDKEY_ST_DN)
+..\Source\APP\com.c:                          ^
+..\Source\APP\com.c(1444): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:    if((IN_HDKey_GetSt(1))!=HDKEY_ST_DN)
+..\Source\APP\com.c:                       ^
+..\Source\APP\com.c(1440): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\APP\com.c:       u32     i;
+..\Source\APP\com.c:               ^
+..\Source\APP\com.c(1956): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_9511TangkongPatch[i]=0;
+..\Source\APP\com.c:                                    ^
+..\Source\APP\com.c(1981): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_9511TangkongPatch[i]=2;
+..\Source\APP\com.c:                                    ^
+..\Source\APP\com.c(2028): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_Tangkong_WorkCmd=MOTO_CUT_NONE;
+..\Source\APP\com.c:                                ^
+..\Source\APP\com.c(2029): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_9511TangkongPatch[id]=1;
+..\Source\APP\com.c:                                     ^
+..\Source\APP\com.c(2038): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_Tangkong_WorkCmd=MOTO_CUT_NONE;
+..\Source\APP\com.c:                                ^
+..\Source\APP\com.c(2039): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_9511TangkongPatch[id]=1;
+..\Source\APP\com.c:                                     ^
+..\Source\APP\com.c(2051): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_Tangkong_WorkCmd=MOTO_CUT_HALF;
+..\Source\APP\com.c:                                ^
+..\Source\APP\com.c(2066): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_Tangkong_WorkCmd=MOTO_CUT_D;
+..\Source\APP\com.c:                                ^
+..\Source\APP\com.c(2074): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_Tangkong_WorkCmd=MOTO_CUT_D;
+..\Source\APP\com.c:                                ^
+..\Source\APP\com.c(2082): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_Tangkong_WorkCmd=MOTO_CUT_D;
+..\Source\APP\com.c:                                ^
+..\Source\APP\com.c(2101): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_Tangkong_WorkCmd=MOTO_CUT_H;
+..\Source\APP\com.c:                                ^
+..\Source\APP\com.c(2109): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_Tangkong_WorkCmd=MOTO_CUT_D;
+..\Source\APP\com.c:                                ^
+..\Source\APP\com.c(2122): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_Tangkong_WorkCmd=MOTO_CUT_H;
+..\Source\APP\com.c:                                ^
+..\Source\APP\com.c(2130): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_Tangkong_WorkCmd=MOTO_CUT_D;
+..\Source\APP\com.c:                                ^
+..\Source\APP\com.c(966): warning:  #177-D: function "COM_HeadUpDown" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_HeadUpDown(u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(2498): warning:  #177-D: function "COM_MainCh9511" was declared but never referenced
+..\Source\APP\com.c:   static void COM_MainCh9511(u16 buf[], u8 len)
+..\Source\APP\com.c:               ^
+..\Source\APP\com.c(2436): warning:  #177-D: function "COM_MainConfirm" was declared but never referenced
+..\Source\APP\com.c:   static void COM_MainConfirm(u16 buf[], u8 len)
+..\Source\APP\com.c:               ^
+..\Source\APP\com.c(1186): warning:  #177-D: function "COM_9511DataCheck" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511DataCheck (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1198): warning:  #177-D: function "COM_9511DnToUpBrk" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511DnToUpBrk (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1222): warning:  #177-D: function "COM_9511BrkDetMod" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511BrkDetMod (u16 buf[], u8 len)//0xd3命令的执行函数，
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1247): warning:  #177-D: function "COM_9511GetIsSqnUp" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511GetIsSqnUp (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1268): warning:  #177-D: function "COM_9511DnEnable" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511DnEnable (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1288): warning:  #177-D: function "COM_9511CutBack" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511CutBack (u16 buf[], u8 len)//剪刀收回
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1300): warning:  #177-D: function "COM_9511CutHalf" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511CutHalf (u16 buf[], u8 len)//剪刀半出
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1312): warning:  #177-D: function "COM_9511CutFull" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511CutFull (u16 buf[], u8 len)//剪线满入
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1378): warning:  #177-D: function "COM_9511CutSetPara" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511CutSetPara (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1391): warning:  #177-D: function "COM_9511GetVersion" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511GetVersion (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1459): warning:  #177-D: function "COM_9511MAOrgOut" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511MAOrgOut (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1465): warning:  #177-D: function "COM_9511GetHghOdd" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511GetHghOdd (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1502): warning:  #177-D: function "COM_9511GetHghEven" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511GetHghEven (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1539): warning:  #177-D: function "COM_9511GetADOdd" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511GetADOdd (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1552): warning:  #177-D: function "COM_9511GetADEven" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511GetADEven (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1566): warning:  #177-D: function "COM_9511MAOneLoop" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511MAOneLoop (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1611): warning:  #177-D: function "COM_9511GetHDLed" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511GetHDLed (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1784): warning:  #177-D: function "COM_9511GetCutOrg" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511GetCutOrg (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1812): warning:  #177-D: function "COM_9511GetDnErr" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511GetDnErr (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1626): warning:  #177-D: function "COM_9511MAOrgIn" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511MAOrgIn (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1826): warning:  #177-D: function "COM_9511GetUpErr" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511GetUpErr (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1679): warning:  #177-D: function "COM_9511MAStop" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511MAStop (u16 buf[], u8 len)//0xfd主轴停车的命令
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1653): warning:  #177-D: function "COM_9511MAStartUp" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511MAStartUp (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1699): warning:  #177-D: function "COM_9511BrkDetect" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511BrkDetect (u16 buf[], u8 len)//在emb函数中有SendDJtoHead的宏定义，所以是有发断检信号的。在断线测试中是自己连发了三次0xFF
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1323): warning:  #177-D: function "COM_ID_9511CutBack" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_ID_9511CutBack (BSP_ID_TypeDef id,u16 buf[], u8 len)//剪刀收回
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1355): warning:  #177-D: function "COM_ID_9511CutHalf" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_ID_9511CutHalf (BSP_ID_TypeDef id,u16 buf[], u8 len)//剪刀半出
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1367): warning:  #177-D: function "COM_ID_9511CutFull" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_ID_9511CutFull (BSP_ID_TypeDef id,u16 buf[], u8 len)//剪线满入
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1334): warning:  #177-D: function "COM_ID_9511CutH" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_ID_9511CutH (BSP_ID_TypeDef id,u16 buf[], u8 len)//剪刀收回
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1344): warning:  #177-D: function "COM_ID_9511CutD" was declared but never referenced
+..\Source\APP\com.c:   }static  void  COM_ID_9511CutD (BSP_ID_TypeDef id,u16 buf[], u8 len)//剪刀收回
+..\Source\APP\com.c:                  ^
+..\Source\APP\com.c(973): warning:  #177-D: function "COM_Get9511TKStatus" was declared but never referenced
+..\Source\APP\com.c:   static  u16  COM_Get9511TKStatus (void)
+..\Source\APP\com.c:                ^
+..\Source\APP\com.c: ..\Source\APP\com.c: 68 warnings, 0 errors
+linking...
+Program Size: Code=46896 RO-data=9544 RW-data=416 ZI-data=11288  
+FromELF: creating hex file...
+".\exe\103V8_ceshi.axf" - 0 Error(s), 72 Warning(s).
+Load "F:\\tangkong\\e9512B\\9511Soft\\Project\\exe\\103V8_ceshi.AXF" 
+Set JLink Project File to "F:\tangkong\e9512B\9511Soft\Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 89898989 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103V8
+VTarget = 3.338V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'V8_9511_V1'
+compiling com.c...
+..\Source\APP\moto.h(203): warning:  #1295-D: Deprecated declaration HOT_POS_Get - give arg types
+..\Source\APP\moto.h:   HOT_POS_TypeDef     HOT_POS_Get();
+..\Source\APP\moto.h:                       ^
+..\Source\APP\com.c(270): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:   bool                COM_9511TangkongPatch[2]             =  { 0,0};
+..\Source\APP\com.c:                                                                 ^
+..\Source\APP\com.c(270): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:   bool                COM_9511TangkongPatch[2]             =  { 0,0};
+..\Source\APP\com.c:                                                                   ^
+..\Source\APP\com.c(691): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:        if ((BSP_SWI_FiGet(id) == BSP_SWITCH_LOW)||(COM_9511TangkongDir==FALSE)) /// 如没有回位, 需回位
+..\Source\APP\com.c:                           ^
+..\Source\APP\com.c(710): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:               cmd =   (MOTO_CUT_CMD_TypeDef)COM_Tangkong_WorkCmd;
+..\Source\APP\com.c:                   ^
+..\Source\APP\com.c(721): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:           MOTO_CutSetCmd(id, cmd);
+..\Source\APP\com.c:                              ^
+..\Source\APP\com.c(744): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:               cmd =   (MOTO_CUT_CMD_TypeDef)COM_Tangkong_WorkCmd;
+..\Source\APP\com.c:                   ^
+..\Source\APP\com.c(755): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:           MOTO_CutSetCmd(id, cmd);
+..\Source\APP\com.c:                              ^
+..\Source\APP\com.c(806): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:                            COM_Tangkong_WorkCmd=MOTO_CUT_HALF;
+..\Source\APP\com.c:                                                ^
+..\Source\APP\com.c(809): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:                      COM_Tangkong_WorkCmd=MOTO_CUT_FULL;
+..\Source\APP\com.c:                                          ^
+..\Source\APP\com.c(812): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:                    COM_Tangkong_WorkCmd=MOTO_CUT_D;
+..\Source\APP\com.c:                                        ^
+..\Source\APP\com.c(814): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:                    COM_Tangkong_WorkCmd=MOTO_CUT_H;
+..\Source\APP\com.c:                                        ^
+..\Source\APP\com.c(816): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:                    COM_Tangkong_WorkCmd=MOTO_CUT_O;
+..\Source\APP\com.c:                                        ^
+..\Source\APP\com.c(818): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:                    COM_Tangkong_WorkCmd=MOTO_CUT_NONE;
+..\Source\APP\com.c:                                        ^
+..\Source\APP\com.c(961): warning:  #186-D: pointless comparison of unsigned integer with zero
+..\Source\APP\com.c:    if((len_tmp<5)&&(len_tmp>=0))
+..\Source\APP\com.c:                            ^
+..\Source\APP\com.c(976): warning:  #177-D: variable "broken" was declared but never referenced
+..\Source\APP\com.c:       bool                broken[BSP_DEVICE_ID_N];
+..\Source\APP\com.c:                           ^
+..\Source\APP\com.c(1427): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:    if((IN_HDKey_GetSt(0))!=HDKEY_ST_DN)
+..\Source\APP\com.c:                       ^
+..\Source\APP\com.c(1429): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:    if((IN_HDKey_GetSt(1))!=HDKEY_ST_DN)
+..\Source\APP\com.c:                       ^
+..\Source\APP\com.c(1442): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:       if((IN_HDKey_GetSt(0))!=HDKEY_ST_DN)
+..\Source\APP\com.c:                          ^
+..\Source\APP\com.c(1444): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:    if((IN_HDKey_GetSt(1))!=HDKEY_ST_DN)
+..\Source\APP\com.c:                       ^
+..\Source\APP\com.c(1440): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\APP\com.c:       u32     i;
+..\Source\APP\com.c:               ^
+..\Source\APP\com.c(1956): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_9511TangkongPatch[i]=0;
+..\Source\APP\com.c:                                    ^
+..\Source\APP\com.c(1981): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_9511TangkongPatch[i]=2;
+..\Source\APP\com.c:                                    ^
+..\Source\APP\com.c(2028): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_Tangkong_WorkCmd=MOTO_CUT_NONE;
+..\Source\APP\com.c:                                ^
+..\Source\APP\com.c(2029): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_9511TangkongPatch[id]=1;
+..\Source\APP\com.c:                                     ^
+..\Source\APP\com.c(2038): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_Tangkong_WorkCmd=MOTO_CUT_NONE;
+..\Source\APP\com.c:                                ^
+..\Source\APP\com.c(2039): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_9511TangkongPatch[id]=1;
+..\Source\APP\com.c:                                     ^
+..\Source\APP\com.c(2051): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_Tangkong_WorkCmd=MOTO_CUT_HALF;
+..\Source\APP\com.c:                                ^
+..\Source\APP\com.c(2067): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_Tangkong_WorkCmd=MOTO_CUT_D;
+..\Source\APP\com.c:                                ^
+..\Source\APP\com.c(2075): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_Tangkong_WorkCmd=MOTO_CUT_D;
+..\Source\APP\com.c:                                ^
+..\Source\APP\com.c(2083): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_Tangkong_WorkCmd=MOTO_CUT_D;
+..\Source\APP\com.c:                                ^
+..\Source\APP\com.c(2102): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_Tangkong_WorkCmd=MOTO_CUT_H;
+..\Source\APP\com.c:                                ^
+..\Source\APP\com.c(2110): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_Tangkong_WorkCmd=MOTO_CUT_D;
+..\Source\APP\com.c:                                ^
+..\Source\APP\com.c(2123): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_Tangkong_WorkCmd=MOTO_CUT_H;
+..\Source\APP\com.c:                                ^
+..\Source\APP\com.c(2131): warning:  #188-D: enumerated type mixed with another type
+..\Source\APP\com.c:            COM_Tangkong_WorkCmd=MOTO_CUT_D;
+..\Source\APP\com.c:                                ^
+..\Source\APP\com.c(966): warning:  #177-D: function "COM_HeadUpDown" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_HeadUpDown(u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(2499): warning:  #177-D: function "COM_MainCh9511" was declared but never referenced
+..\Source\APP\com.c:   static void COM_MainCh9511(u16 buf[], u8 len)
+..\Source\APP\com.c:               ^
+..\Source\APP\com.c(2437): warning:  #177-D: function "COM_MainConfirm" was declared but never referenced
+..\Source\APP\com.c:   static void COM_MainConfirm(u16 buf[], u8 len)
+..\Source\APP\com.c:               ^
+..\Source\APP\com.c(1186): warning:  #177-D: function "COM_9511DataCheck" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511DataCheck (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1198): warning:  #177-D: function "COM_9511DnToUpBrk" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511DnToUpBrk (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1222): warning:  #177-D: function "COM_9511BrkDetMod" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511BrkDetMod (u16 buf[], u8 len)//0xd3命令的执行函数，
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1247): warning:  #177-D: function "COM_9511GetIsSqnUp" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511GetIsSqnUp (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1268): warning:  #177-D: function "COM_9511DnEnable" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511DnEnable (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1288): warning:  #177-D: function "COM_9511CutBack" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511CutBack (u16 buf[], u8 len)//剪刀收回
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1300): warning:  #177-D: function "COM_9511CutHalf" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511CutHalf (u16 buf[], u8 len)//剪刀半出
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1312): warning:  #177-D: function "COM_9511CutFull" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511CutFull (u16 buf[], u8 len)//剪线满入
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1378): warning:  #177-D: function "COM_9511CutSetPara" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511CutSetPara (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1391): warning:  #177-D: function "COM_9511GetVersion" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511GetVersion (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1459): warning:  #177-D: function "COM_9511MAOrgOut" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511MAOrgOut (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1465): warning:  #177-D: function "COM_9511GetHghOdd" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511GetHghOdd (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1502): warning:  #177-D: function "COM_9511GetHghEven" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511GetHghEven (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1539): warning:  #177-D: function "COM_9511GetADOdd" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511GetADOdd (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1552): warning:  #177-D: function "COM_9511GetADEven" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511GetADEven (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1566): warning:  #177-D: function "COM_9511MAOneLoop" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511MAOneLoop (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1611): warning:  #177-D: function "COM_9511GetHDLed" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511GetHDLed (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1784): warning:  #177-D: function "COM_9511GetCutOrg" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511GetCutOrg (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1812): warning:  #177-D: function "COM_9511GetDnErr" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511GetDnErr (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1626): warning:  #177-D: function "COM_9511MAOrgIn" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511MAOrgIn (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1826): warning:  #177-D: function "COM_9511GetUpErr" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511GetUpErr (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1679): warning:  #177-D: function "COM_9511MAStop" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511MAStop (u16 buf[], u8 len)//0xfd主轴停车的命令
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1653): warning:  #177-D: function "COM_9511MAStartUp" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511MAStartUp (u16 buf[], u8 len)
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1699): warning:  #177-D: function "COM_9511BrkDetect" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_9511BrkDetect (u16 buf[], u8 len)//在emb函数中有SendDJtoHead的宏定义，所以是有发断检信号的。在断线测试中是自己连发了三次0xFF
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1323): warning:  #177-D: function "COM_ID_9511CutBack" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_ID_9511CutBack (BSP_ID_TypeDef id,u16 buf[], u8 len)//剪刀收回
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1355): warning:  #177-D: function "COM_ID_9511CutHalf" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_ID_9511CutHalf (BSP_ID_TypeDef id,u16 buf[], u8 len)//剪刀半出
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1367): warning:  #177-D: function "COM_ID_9511CutFull" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_ID_9511CutFull (BSP_ID_TypeDef id,u16 buf[], u8 len)//剪线满入
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1334): warning:  #177-D: function "COM_ID_9511CutH" was declared but never referenced
+..\Source\APP\com.c:   static  void  COM_ID_9511CutH (BSP_ID_TypeDef id,u16 buf[], u8 len)//剪刀收回
+..\Source\APP\com.c:                 ^
+..\Source\APP\com.c(1344): warning:  #177-D: function "COM_ID_9511CutD" was declared but never referenced
+..\Source\APP\com.c:   }static  void  COM_ID_9511CutD (BSP_ID_TypeDef id,u16 buf[], u8 len)//剪刀收回
+..\Source\APP\com.c:                  ^
+..\Source\APP\com.c(973): warning:  #177-D: function "COM_Get9511TKStatus" was declared but never referenced
+..\Source\APP\com.c:   static  u16  COM_Get9511TKStatus (void)
+..\Source\APP\com.c:                ^
+..\Source\APP\com.c: ..\Source\APP\com.c: 68 warnings, 0 errors
+linking...
+Program Size: Code=46900 RO-data=9544 RW-data=416 ZI-data=11288  
+FromELF: creating hex file...
+".\exe\103V8_ceshi.axf" - 0 Error(s), 68 Warning(s).
+Load "F:\\tangkong\\e9512B\\9511Soft\\Project\\exe\\103V8_ceshi.AXF" 
+Set JLink Project File to "F:\tangkong\e9512B\9511Soft\Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 89898989 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103V8
+VTarget = 3.338V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
